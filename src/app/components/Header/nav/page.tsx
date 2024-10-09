@@ -14,20 +14,19 @@ const Navigation = () => {
             <div className="w-[100px] relative ml-auto lg:hidden md:hidden cursor-pointer" onClick={toggleMenu}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="absolute bottom-1 h-6 w-6 text-black" fill="none"
                     viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
                 </svg>
             </div>
 
             <nav>
                 <ul className="hidden text-sm lg:text-lg py-2 px-3 gap-3 md:flex">
-                {/* <ul className=""> */}
                     <Link href={'/'} className="hover:text-orange-500">Home</Link>
                     <Link href={'/'} className="hover:text-orange-500">About Me</Link>
                     <Link href={'/'} className="hover:text-orange-500">Services</Link>
                     <Link href={'/'} className="hover:text-orange-500">Projects</Link>
                     <Link href={'/'} className="hover:text-orange-500">Testimonials</Link>
                     <Link href={'/'} className="hover:text-orange-500">Contact</Link>
-                    <a href="" download><button className=" text-white hover:bg-orange-300" >Download CV</button></a>
+                    <a href="" download><button>Download CV</button></a>
                 </ul>
                 <ul className={`${isVisible? 'grid':'hidden'} grid-cols-1 gap-2 text-center ml-auto mr-20 -mt-2 text-xl bg-[#000000] w-fit rounded-xl p-2 text-white  md:hidden lg:hidden`}>
                     <Link href={'/'} className="hover:text-orange-500">Home</Link>
@@ -36,7 +35,7 @@ const Navigation = () => {
                     <Link href={'/'} className="hover:text-orange-500">Projects</Link>
                     <Link href={'/'} className="hover:text-orange-500">Testimonials</Link>
                     <Link href={'/'} className="hover:text-orange-500">Contact</Link>
-                    <a href="" download><button className="lg:text-xl text-white hover:bg-orange-300" >Download CV</button></a>
+                    <a href="" download><button>Download CV</button></a>
                 </ul>
             </nav>
             

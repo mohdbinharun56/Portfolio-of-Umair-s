@@ -8,19 +8,45 @@
   --background: #ffffff;
   --foreground: #171717;
   --font: 'Montserrat';
-  --buttonfont: 'Poppins';
+  --secondaryfont: 'Poppins';
 }
 
 body{
   margin: 0;
   padding: 0;
-  font-family: var(--font),sans-serif;
+  font-family: var(--secondaryfont),sans-serif;
 }
 
 
 button{
   background: #FD6F00;
+  color: white;
   border-radius: 10px;
   padding: 10px;
-  font-family: var(--buttonfont),sans-serif;
+  font-family: var(--secondaryfont),sans-serif;
+}
+
+button:hover{
+  background: rgba(255, 166, 0, 0.593);
+}
+.circle{
+  width: 385px;
+  height: 385px;
+  border-radius: 50%;
+  position: relative;
+  top: 80px;
+  background: linear-gradient(to right, #FFFFFF00, #FF8233);
+  
+}
+
+.circle::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: 6px;
+  bottom: 6px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 100);
 }
