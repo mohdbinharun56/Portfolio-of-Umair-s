@@ -11,32 +11,33 @@
   --secondaryfont: 'Poppins';
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
-  font-family: var(--secondaryfont),sans-serif;
+  font-family: var(--secondaryfont), sans-serif;
 }
 
 
-button{
+button {
   background: #FD6F00;
   color: white;
   border-radius: 10px;
   padding: 10px;
-  font-family: var(--secondaryfont),sans-serif;
+  font-family: var(--secondaryfont), sans-serif;
 }
 
-button:hover{
+button:hover {
   background: rgba(255, 166, 0, 0.593);
 }
-.circle{
+
+.circle {
   /* width: 385px;
   height: 385px;
   border-radius: 50%;
   position: relative;
   top: 80px; */
   background: linear-gradient(to right, #FFFFFF00, #FF8233);
-  
+
 }
 
 .circle::before {

@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Header from "./components/Header/page";
 import Banner from "./components/banner/page";
+import About from "./components/about/page";
 
 
 export default function Home() {
@@ -20,9 +21,9 @@ export default function Home() {
     <>
       <div>
         <Header></Header>
-        {
-          <Banner informations={informations}></Banner>
-        }
+        <Banner informations={informations}></Banner>
+        <About informations={informations}></About>
+
       </div>
 
     </>

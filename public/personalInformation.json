@@ -11,7 +11,12 @@
       "github": "https://github.com/umairdesigner",
       "twitter": "https://twitter.com/umairdesigner"
     },
-    "aboutMe": "I am a creative UI & UX Designer with a passion for crafting intuitive and aesthetically pleasing designs. With 4 years of experience, I specialize in improving user interaction and enhancing the overall user experience across various digital platforms.",
+    "aboutMe": [
+      {
+        "description": "I am a creative UI & UX Designer with a passion for crafting intuitive and aesthetically pleasing designs. With 4 years of experience, I specialize in improving user interaction and enhancing the overall user experience across various digital platforms.",
+        "image": "https://s3-alpha-sig.figma.com/img/6dea/b4e8/80f48cd1d9fa0014c092574df5520d15?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FcJXafyGo~A6Ss0YVgqDEM3jU6HMXGJ5PVYjo8NDeWv-9yaMu9R09x-ju6XigWqrT~In4Fb8AUt~IZHo84BCdJtq~0u5wf3bn3IJeL0GcZjla1idBculnfAi3DE~hoG25lfNYmm~4vVl9cVQ4l7em4jRhPysK2fnCiM7nk3NfKTtp-FW~7NyIM1fvm9KKjBo1zeoZVSDkMl2b4z8yh24Y17T8oHZAKndU9P7dsDpgs-vLIa24K3N3qUU1ANC9nzEkx2tg8nR3QeN7QKjtUe0TNMZbV~top0sXp336nrKDNv5xyaUD-E5jJxPcnwUmtcgpJvsqRB-59sfZt0FnPXROQ__"
+      }
+    ],
     "skills": [
       "UX Design",
       "Website Design",

@@ -8,18 +8,19 @@ export default function Banner({ informations }: any) {
                     <h1 className="font-semibold text-3xl text-[#FD6F00]">{name}</h1>
                     <p className="w-96 font-bold text-6xl lg:text-8xl">{title ? title.slice(0, 7) : ''}</p>
                     <p className="lg:w-96 font-bold text-6xl mx-auto lg:text-8xl ">{title ? title.slice(7) : ''}</p>
-                    <p className="font-normal lg:text-xl my-6">{aboutMe}</p>
+                    <p className="font-normal lg:text-xl my-6">{aboutMe? aboutMe.map((about: { description: any; })=>about.description):''}</p>
                     <button className="w-40">Hire me</button>
                 </div>
                 <div className="circle mx-auto w-52 h-52 lg:w-96 lg:h-96 rounded-full relative top-20">
 
                     <div>
                         <img src={profileImage} alt="profilePhoto" className="w-[280px] h-[280px] lg:w-[450px] lg:h-[450px] absolute left-1 -top-[70px] rounded-full mx-auto" />
-                        <div className="w-40 h-8 lg:w-80 lg:h-[70px] border-1 bg-[#FD6F0099] absolute ml-8 -mt-5"></div>
+                        <div className="w-40 h-8 lg:w-72 lg:h-[70px] border-1 bg-[#FD6F0099] absolute ml-8 -mt-5"></div>
                     </div>
                 </div>
             </div>
             <div className="flex gap-3 justify-center items-center md:justify-end md:mr-24 lg:mr-52 mt-24">
+            {/* <div className=" flex gap-3 justify-end items-center mt-24 "> */}
                 <a href="https://facebook.com" target="_blank" className=" hover:text-[#FD6F0099] transition duration-300">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
                         style={{ cursor: "pointer" }}>
