@@ -1,124 +1,154 @@
 {
-    "name": "Mohammad Umair",
-    "title": "UI & UX Designer",
-    "profileImage": "https://s3-alpha-sig.figma.com/img/8aeb/1fc9/979b379ab7f66745a5c557015bf995d5?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dS-1WnbOdlDs~LYwEpc45E3bfPuNYw1NCNZ2YnRBCElbYLGbtxJD~n89NLYUDrMoOQ9pV8zMMaujVXe3YMy~EKFQrd3uc9a~MXqBboEN3XrKw5xDnZpLKqV2yc9fhavEacpKCvkrXxLINzMIXgrz9moeDLhUrBpaROidVLKcgOfLl6VV8TyhV2KJt0QDdA-IEbHLjDvB67t3AlzKkt9a10xSqfzc2ViEfwFqHSzlrlovKVuqF1afeT-VpmzZCjsfwdtfOVfhEpHwCUk6-3d-27rGpVLuBJXO5uiYemebKBenm2oktZyPTcWAqyIUmZesjZNyWTeaLceg53E-PRKY5A__",
-    "contact": {
-      "email": "umair.designer@gmail.com",
-      "phone": "+1234567890",
-      "address": "123 Main Street, Anytown, USA",
-      "website": "https://www.umairportfolio.com",
-      "linkedin": "https://www.linkedin.com/in/mohammadumair",
-      "github": "https://github.com/umairdesigner",
-      "twitter": "https://twitter.com/umairdesigner"
+  "name": "Mohammad Umair",
+  "title": "UI & UX Designer",
+  "profileImage": "https://s3-alpha-sig.figma.com/img/8aeb/1fc9/979b379ab7f66745a5c557015bf995d5?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dS-1WnbOdlDs~LYwEpc45E3bfPuNYw1NCNZ2YnRBCElbYLGbtxJD~n89NLYUDrMoOQ9pV8zMMaujVXe3YMy~EKFQrd3uc9a~MXqBboEN3XrKw5xDnZpLKqV2yc9fhavEacpKCvkrXxLINzMIXgrz9moeDLhUrBpaROidVLKcgOfLl6VV8TyhV2KJt0QDdA-IEbHLjDvB67t3AlzKkt9a10xSqfzc2ViEfwFqHSzlrlovKVuqF1afeT-VpmzZCjsfwdtfOVfhEpHwCUk6-3d-27rGpVLuBJXO5uiYemebKBenm2oktZyPTcWAqyIUmZesjZNyWTeaLceg53E-PRKY5A__",
+  "contact": {
+    "email": "umair.designer@gmail.com",
+    "phone": "+1234567890",
+    "address": "123 Main Street, Anytown, USA",
+    "website": "https://www.umairportfolio.com",
+    "linkedin": "https://www.linkedin.com/in/mohammadumair",
+    "github": "https://github.com/umairdesigner",
+    "twitter": "https://twitter.com/umairdesigner"
+  },
+  "aboutMe": [
+    {
+      "description": "I am a creative UI & UX Designer with a passion for crafting intuitive and aesthetically pleasing designs. With 4 years of experience, I specialize in improving user interaction and enhancing the overall user experience across various digital platforms.",
+      "image": "https://s3-alpha-sig.figma.com/img/6dea/b4e8/80f48cd1d9fa0014c092574df5520d15?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FcJXafyGo~A6Ss0YVgqDEM3jU6HMXGJ5PVYjo8NDeWv-9yaMu9R09x-ju6XigWqrT~In4Fb8AUt~IZHo84BCdJtq~0u5wf3bn3IJeL0GcZjla1idBculnfAi3DE~hoG25lfNYmm~4vVl9cVQ4l7em4jRhPysK2fnCiM7nk3NfKTtp-FW~7NyIM1fvm9KKjBo1zeoZVSDkMl2b4z8yh24Y17T8oHZAKndU9P7dsDpgs-vLIa24K3N3qUU1ANC9nzEkx2tg8nR3QeN7QKjtUe0TNMZbV~top0sXp336nrKDNv5xyaUD-E5jJxPcnwUmtcgpJvsqRB-59sfZt0FnPXROQ__"
+    }
+  ],
+  "skills": [
+    {
+      "skillTitle": "UX Design",
+      "skillLogo": "/assets/UIUX.png",
+      "description": "Delivering user-centered designs that improve interaction and overall experience."
     },
-    "aboutMe": [
-      {
-        "description": "I am a creative UI & UX Designer with a passion for crafting intuitive and aesthetically pleasing designs. With 4 years of experience, I specialize in improving user interaction and enhancing the overall user experience across various digital platforms.",
-        "image": "https://s3-alpha-sig.figma.com/img/6dea/b4e8/80f48cd1d9fa0014c092574df5520d15?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FcJXafyGo~A6Ss0YVgqDEM3jU6HMXGJ5PVYjo8NDeWv-9yaMu9R09x-ju6XigWqrT~In4Fb8AUt~IZHo84BCdJtq~0u5wf3bn3IJeL0GcZjla1idBculnfAi3DE~hoG25lfNYmm~4vVl9cVQ4l7em4jRhPysK2fnCiM7nk3NfKTtp-FW~7NyIM1fvm9KKjBo1zeoZVSDkMl2b4z8yh24Y17T8oHZAKndU9P7dsDpgs-vLIa24K3N3qUU1ANC9nzEkx2tg8nR3QeN7QKjtUe0TNMZbV~top0sXp336nrKDNv5xyaUD-E5jJxPcnwUmtcgpJvsqRB-59sfZt0FnPXROQ__"
-      }
-    ],
-    "skills": [
-      "UX Design",
-      "Website Design",
-      "App Design",
-      "Graphics Design"
-    ],
-    "experience": [
-      {
-        "company": "Creative Studio",
-        "position": "UI & UX Designer",
-        "startDate": "March 2020",
-        "endDate": "Present",
-        "responsibilities": [
-          "Designed and enhanced user interfaces for mobile and web applications",
-          "Worked closely with development teams to ensure seamless user experiences",
-          "Conducted user research and testing to optimize designs"
-        ],
-        "feedback": [
-          {
-            "name": "Jane Doe",
-            "feedbackMessage": "Mohammad consistently delivers outstanding design work. His attention to detail and user-centered approach have greatly improved our platform’s usability.",
-            "roleOfUser": "Project Manager",
-            "profilePhoto": "https://example.com/jane-doe.jpg"
-          },
-          {
-            "name": "John Smith",
-            "feedbackMessage": "Umair’s design skills are top-notch, and he has a great understanding of the UX process. He always goes the extra mile to ensure our products look fantastic and function smoothly.",
-            "roleOfUser": "Product Owner",
-            "profilePhoto": "https://example.com/john-smith.jpg"
-          }
-        ]
-      },
-      {
-        "company": "Design Innovators",
-        "position": "Graphic Designer",
-        "startDate": "July 2017",
-        "endDate": "February 2020",
-        "responsibilities": [
-          "Created visual designs for web and print materials",
-          "Collaborated with clients to meet branding requirements",
-          "Delivered high-quality design solutions within tight deadlines"
-        ],
-        "feedback": [
-          {
-            "name": "Emily Clark",
-            "feedbackMessage": "Mohammad’s creativity and dedication helped elevate our brand visuals. His ability to quickly grasp concepts and execute them with precision was invaluable.",
-            "roleOfUser": "Marketing Lead",
-            "profilePhoto": "https://example.com/emily-clark.jpg"
-          }
-        ]
-      }
-    ],
-    "education": [
-      {
-        "degree": "Bachelor of Arts in Graphic Design",
-        "institution": "University of Anytown",
-        "startDate": "September 2013",
-        "endDate": "May 2017"
-      }
-    ],
-    "projects": [
-      {
-        "projectName": "Mobile App Redesign",
-        "description": "Led the redesign of a mobile app, improving the user experience and modernizing the UI to increase user engagement.",
-        "technology": ["UX Design", "App Design"]
-      },
-      {
-        "projectName": "E-Commerce Website",
-        "description": "Designed an e-commerce platform with a focus on user-friendly navigation and a visually appealing shopping experience.",
-        "technology": ["Website Design", "Graphics Design"]
-      },
-      {
-        "projectName": "Portfolio Website",
-        "description": "Developed a personal portfolio website to showcase projects and skills using modern web technologies.",
-        "technology": ["Website Design", "Graphics Design"]
-      },
-      {
-        "projectName": "Real Estate Website",
-        "description": "Designed a real estate website with intuitive navigation, search filters, and a visually engaging layout.",
-        "technology": ["UX Design", "Website Design"]
-      },
-      {
-        "projectName": "Food Delivery App UI",
-        "description": "Created a food delivery app interface focusing on usability and a seamless user experience for ordering food.",
-        "technology": ["UX Design", "App Design"]
-      }
-    ],
-    "certifications": [
-      {
-        "name": "Certified UX Designer",
-        "institution": "UX Design Institute",
-        "date": "October 2019"
-      }
-    ],
-    "languages": [
-      "English",
-      "French"
-    ],
-    "interests": [
-      "User Experience Design",
-      "Creative Problem Solving",
-      "Typography"
-    ]
-  }
-  
+    {
+      "skillTitle": "Website Design",
+      "skillLogo": "/assets/Web.png",
+      "description": "Crafting responsive and visually appealing websites tailored to user needs."
+    },
+    {
+      "skillTitle": "App Design",
+      "skillLogo": "/assets/App.png",
+      "description":"Designing intuitive and functional mobile apps for seamless user engagement."
+    },
+    {
+      "skillTitle": "Graphic Design",
+      "skillLogo": "/assets/Graphics.png",
+      "description": "Creating compelling visual content to enhance brand identity and communication."
+    }
+  ],
+  "experience": [
+    {
+      "company": "Creative Studio",
+      "position": "UI & UX Designer",
+      "startDate": "March 2020",
+      "endDate": "Present",
+      "responsibilities": [
+        "Designed and enhanced user interfaces for mobile and web applications",
+        "Worked closely with development teams to ensure seamless user experiences",
+        "Conducted user research and testing to optimize designs"
+      ],
+      "feedback": [
+        {
+          "name": "Jane Doe",
+          "feedbackMessage": "Mohammad consistently delivers outstanding design work. His attention to detail and user-centered approach have greatly improved our platform’s usability.",
+          "roleOfUser": "Project Manager",
+          "profilePhoto": "https://example.com/jane-doe.jpg"
+        },
+        {
+          "name": "John Smith",
+          "feedbackMessage": "Umair’s design skills are top-notch, and he has a great understanding of the UX process. He always goes the extra mile to ensure our products look fantastic and function smoothly.",
+          "roleOfUser": "Product Owner",
+          "profilePhoto": "https://example.com/john-smith.jpg"
+        }
+      ]
+    },
+    {
+      "company": "Design Innovators",
+      "position": "Graphic Designer",
+      "startDate": "July 2017",
+      "endDate": "February 2020",
+      "responsibilities": [
+        "Created visual designs for web and print materials",
+        "Collaborated with clients to meet branding requirements",
+        "Delivered high-quality design solutions within tight deadlines"
+      ],
+      "feedback": [
+        {
+          "name": "Emily Clark",
+          "feedbackMessage": "Mohammad’s creativity and dedication helped elevate our brand visuals. His ability to quickly grasp concepts and execute them with precision was invaluable.",
+          "roleOfUser": "Marketing Lead",
+          "profilePhoto": "https://example.com/emily-clark.jpg"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Arts in Graphic Design",
+      "institution": "University of Anytown",
+      "startDate": "September 2013",
+      "endDate": "May 2017"
+    }
+  ],
+  "projects": [
+    {
+      "projectName": "Mobile App Redesign",
+      "description": "Led the redesign of a mobile app, improving the user experience and modernizing the UI to increase user engagement.",
+      "technology": [
+        "UX Design",
+        "App Design"
+      ]
+    },
+    {
+      "projectName": "E-Commerce Website",
+      "description": "Designed an e-commerce platform with a focus on user-friendly navigation and a visually appealing shopping experience.",
+      "technology": [
+        "Website Design",
+        "Graphics Design"
+      ]
+    },
+    {
+      "projectName": "Portfolio Website",
+      "description": "Developed a personal portfolio website to showcase projects and skills using modern web technologies.",
+      "technology": [
+        "Website Design",
+        "Graphics Design"
+      ]
+    },
+    {
+      "projectName": "Real Estate Website",
+      "description": "Designed a real estate website with intuitive navigation, search filters, and a visually engaging layout.",
+      "technology": [
+        "UX Design",
+        "Website Design"
+      ]
+    },
+    {
+      "projectName": "Food Delivery App UI",
+      "description": "Created a food delivery app interface focusing on usability and a seamless user experience for ordering food.",
+      "technology": [
+        "UX Design",
+        "App Design"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified UX Designer",
+      "institution": "UX Design Institute",
+      "date": "October 2019"
+    }
+  ],
+  "languages": [
+    "English",
+    "French"
+  ],
+  "interests": [
+    "User Experience Design",
+    "Creative Problem Solving",
+    "Typography"
+  ]
+}

@@ -20,7 +20,6 @@ export default function Banner({ informations }: any) {
                 </div>
             </div>
             <div className="flex gap-3 justify-center items-center md:justify-end md:mr-24 lg:mr-52 mt-24">
-            {/* <div className=" flex gap-3 justify-end items-center mt-24 "> */}
                 <a href="https://facebook.com" target="_blank" className=" hover:text-[#FD6F0099] transition duration-300">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
                         style={{ cursor: "pointer" }}>

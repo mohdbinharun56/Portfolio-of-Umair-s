@@ -7,7 +7,7 @@ export default function About({ informations }: any) {
                     <div className="circle  w-52 h-52 lg:w-96 lg:h-96 rounded-full relative">
                         <div>
                             {
-                                aboutMe ? aboutMe.map((about: { image: any }) => <img src={about.image} className="w-[280px] h-[280px] lg:w-[450px] lg:h-[450px] absolute left-1 -top-[70px] rounded-full mx-auto"></img>) : ''
+                                aboutMe ? aboutMe.map((about: { image: any },idx:any) => <img key={idx} src={about.image} className="w-[280px] h-[280px] lg:w-[450px] lg:h-[450px] absolute left-1 -top-[70px] rounded-full mx-auto"></img>) : ''
                             }
                             <div className="w-40 h-8 lg:w-80 lg:h-[70px] border-1 bg-[#FD6F0099] absolute ml-8 -mt-5"></div>
                         </div>
@@ -16,11 +16,11 @@ export default function About({ informations }: any) {
 
                 <div>
                     <h1 className="w-fit text-3xl mx-auto mb-5 lg:w-80 font-semibold lg:text-6xl">About Me</h1>
-                    <p>
+                    <div>
                         {
-                            aboutMe ? aboutMe.map((about: { description: any }) => <p className="ml-5 mb-5 text-sm text-center lg:max-w-3xl md:text-start md:text-lg">{about.description}</p>) : ''
+                            aboutMe ? aboutMe.map((about: { description: any },idx:any) => <p key={idx} className="ml-5 mb-5 text-sm text-center lg:max-w-3xl md:text-start md:text-lg">{about.description}</p>) : ''
                         }
-                    </p>
+                    </div>
                     <small className="ml-4 font-semibold text-lg md:text-2xl">UX</small>
                     <div className="my-5 ml-4 relative">
                         <div className="w-full md:w-[25rem] lg:w-[44rem] h-[1rem] bg-[#EDECEC] rounded-lg">

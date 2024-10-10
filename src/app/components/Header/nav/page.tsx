@@ -20,21 +20,21 @@ const Navigation = () => {
 
             <nav>
                 <ul className="hidden text-sm lg:text-lg py-2 px-3 gap-3 md:flex">
-                    <Link href={'/'} className="hover:text-orange-500">Home</Link>
-                    <Link href={'/'} className="hover:text-orange-500">About Me</Link>
-                    <Link href={'/'} className="hover:text-orange-500">Services</Link>
-                    <Link href={'/'} className="hover:text-orange-500">Projects</Link>
-                    <Link href={'/'} className="hover:text-orange-500">Testimonials</Link>
-                    <Link href={'/'} className="hover:text-orange-500">Contact</Link>
+                    <Link href={'/'} className="hover:text-orange-500 transition duration-1000">Home</Link>
+                    <Link href={'/'} className="hover:text-orange-500 transition duration-1000">About Me</Link>
+                    <Link href={'/'} className="hover:text-orange-500 transition duration-1000">Services</Link>
+                    <Link href={'/'} className="hover:text-orange-500 transition duration-1000">Projects</Link>
+                    <Link href={'/'} className="hover:text-orange-500 transition duration-1000">Testimonials</Link>
+                    <Link href={'/'} className="hover:text-orange-500 transition duration-1000">Contact</Link>
                     <a href="" download><button>Download CV</button></a>
                 </ul>
                 <ul className={`${isVisible? 'grid':'hidden'} grid-cols-1 gap-2 text-center ml-auto mr-20 -mt-2 text-xl bg-[#000000] w-fit rounded-xl p-2 text-white  md:hidden lg:hidden`}>
-                    <Link href={'/'} className="hover:text-orange-500">Home</Link>
-                    <Link href={'/'} className="hover:text-orange-500">About Me</Link>
-                    <Link href={'/'} className="hover:text-orange-500">Services</Link>
-                    <Link href={'/'} className="hover:text-orange-500">Projects</Link>
-                    <Link href={'/'} className="hover:text-orange-500">Testimonials</Link>
-                    <Link href={'/'} className="hover:text-orange-500">Contact</Link>
+                    <Link href={'/'} className="hover:text-orange-500 transition duration-1000">Home</Link>
+                    <Link href={'/'} className="hover:text-orange-500 transition duration-1000">About Me</Link>
+                    <Link href={'/'} className="hover:text-orange-500 transition duration-1000">Services</Link>
+                    <Link href={'/'} className="hover:text-orange-500 transition duration-1000">Projects</Link>
+                    <Link href={'/'} className="hover:text-orange-500 transition duration-1000">Testimonials</Link>
+                    <Link href={'/'} className="hover:text-orange-500 transition duration-1000">Contact</Link>
                     <a href="" download><button>Download CV</button></a>
                 </ul>
             </nav>
