@@ -96,33 +96,39 @@
   "projects": [
     {
       "projectName": "Mobile App Redesign",
-      "designImage": "",
+      "designImage": "/assets/design1.png",
       "description": "Led the redesign of a mobile app, improving the user experience and modernizing the UI to increase user engagement.",
       "technology": "App Design"
     },
     {
+      "projectName": "Food Delivery App UI",
+      "designImage": "/assets/design2.png",
+      "description": "Created a food delivery app interface focusing on usability and a seamless user experience for ordering food.",
+      "technology":"App Design"
+    },
+    {
       "projectName": "E-Commerce Website",
-      "designImage": "",
+      "designImage": "/assets/design3.png",
       "description": "Designed an e-commerce platform with a focus on user-friendly navigation and a visually appealing shopping experience.",
-      "technology": "Website Design"
+      "technology": "Web Design"
+    },
+    {
+      "projectName": "E-Commerce Website",
+      "designImage": "/assets/design4.png",
+      "description": "Designed an e-commerce platform with a focus on user-friendly navigation and a visually appealing shopping experience.",
+      "technology": "Web Design"
     },
     {
       "projectName": "Portfolio Website",
-      "designImage": "",
+      "designImage": "/assets/design5.png",
       "description": "Developed a personal portfolio website to showcase projects and skills using modern web technologies.",
-      "technology": "Graphics Design"
+      "technology": "Graphic Design"
     },
     {
       "projectName": "Real Estate Website",
-      "designImage": "",
+      "designImage": "/assets/design6.png",
       "description": "Designed a real estate website with intuitive navigation, search filters, and a visually engaging layout.",
-      "technology": "UX Design"
-    },
-    {
-      "projectName": "Food Delivery App UI",
-      "designImage": "",
-      "description": "Created a food delivery app interface focusing on usability and a seamless user experience for ordering food.",
-      "technology":"App Design"
+      "technology": "UI/UX"
     }
   ],
   "certifications": [
