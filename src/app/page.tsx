@@ -4,6 +4,7 @@ import Header from "./components/Header/page";
 import Banner from "./components/banner/page";
 import About from "./components/about/page";
 import Services from "./components/services/page";
+import Projects from "./components/projects/page";
 
 
 export default function Home() {
@@ -28,7 +29,7 @@ export default function Home() {
         <Banner informations={informations}></Banner>
         <About informations={informations}></About>
         <Services informations={informations}></Services>
-
+        <Projects informations={informations}></Projects>
       </div>
 
     </>
