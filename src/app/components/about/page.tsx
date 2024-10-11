@@ -1,8 +1,9 @@
-export default function About({ informations }: any) {
+
+export default function About({ informations,nav }: any) {
     const { aboutMe } = informations;
     return (
         <>
-            <div className="mt-20 flex flex-col-reverse md:flex-row justify-center items-center gap-20 ">
+            <div id="about" className="mt-20 flex flex-col-reverse md:flex-row justify-center items-center gap-20 ">
                 <div className="mt-20">
                     <div className="circle  w-52 h-52 lg:w-96 lg:h-96 rounded-full relative">
                         <div>

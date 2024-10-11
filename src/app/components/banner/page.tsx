@@ -1,8 +1,8 @@
-export default function Banner({ informations }: any) {
+export default function Banner({ informations,nav }: any) {
     const { name, title, profileImage, aboutMe } = informations;
     return (
         <>
-            <div className="lg:max-w-7xl md:flex  mx-auto mt-16">
+            <div id="banner" className="lg:max-w-7xl md:flex  mx-auto mt-16">
                 <div className="w-2/3 ml-8 lg:ml-24">
                     <small className="font-semibold text-2xl">Hi I am</small>
                     <h1 className="font-semibold text-3xl text-[#FD6F00]">{name}</h1>

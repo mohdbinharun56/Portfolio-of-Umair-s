@@ -1,7 +1,8 @@
+'use client'
 import { useEffect, useRef, useState } from "react";
 import Testimonial from "../testimonial/page";
 
-export default function Testimonials({ informations }: any) {
+export default function Testimonials({ informations,nav }: any) {
     
     const { experiences } = informations;
     const carouselRef = useRef<HTMLDivElement>(null);
@@ -39,7 +40,7 @@ export default function Testimonials({ informations }: any) {
     }
     return (
         <>
-            <div>
+            <div id="testimonials">
                 <div className="text-center my-20">
                     <h1 className="font-semibold text-3xl lg:text-6xl">Testimonials</h1>
                     <p className="w-[350px] lg:w-[900px] font-normal text-sm md:text-xl text-center mx-auto my-5">This section 
@@ -67,6 +68,10 @@ export default function Testimonials({ informations }: any) {
                         ))
                     }
                 </div>
+            </div>
+
+            <div>
+                <footer></footer>
             </div>
         </>
     );

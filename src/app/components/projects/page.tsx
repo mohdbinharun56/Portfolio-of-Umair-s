@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Project from "../project/page";
 
-export default function Projects({ informations }: any) {
+export default function Projects({ informations,nav }: any) {
     const [activeProject, setActiveProject] = useState("All");
 
     const handleprojects = (e: any, projectType: string) => {
@@ -11,19 +11,13 @@ export default function Projects({ informations }: any) {
     }
 
     const { projects } = informations;
-    // console.log(projects)
+
     if (!projects) {
         return <h1></h1>
     }
-    // const setDesign = activeProject === 'All' || activeProject === projects.find((project: any) => {
-    //     const projectType = project.technology;
-    //     const isCheck = activeProject === projectType;
-    //     console.log(isCheck, projectType);
-
-    // });
     return (
         <>
-            <div className="w-full">
+            <div id="projects" className="w-full">
                 <div className="mt-20">
                     <h1 className="text-center text-3xl lg:text-6xl font-semibold">My Projects</h1>
                     <p className="max-w-4xl my-5 mx-auto text-center font-normal text-base md:text-xl">The Projects section showcases a range of completed works, highlighting innovative solutions and technical expertise across web, mobile, and design projects. Each project demonstrates practical applications of skills, creativity, and problem-solving abilities.</p>
