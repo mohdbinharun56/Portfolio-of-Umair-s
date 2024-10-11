@@ -1,6 +1,6 @@
 export default function Testimonial({ experience }: any) {
     const { feedback } = experience;
-    console.log(feedback);
+
     if (!experience && !feedback) {
         return;
     }
@@ -9,19 +9,18 @@ export default function Testimonial({ experience }: any) {
             {
                 feedback.map((feed: any, idx: any) => {
                     return (
-                        <>
-                            <div id="item1" className="carousel-item w-full">
-                                <div className="flex flex-col md:flex-row items-center gap-10 bg-[#F8F8F8] p-10 ml-5 mr-5 md:ml-20 md:mr-20 rounded-2xl my-20">
-                                    <img src={feed.profilePhoto} className="w-20 h-20 rounded-full" />
-                                    <div className="">
-                                        <p className="font-normal text-sm md:text-base my-5">{feed.feedbackMessage}</p>
-                                        <p className="font-medium text-2xl">{feed.name}</p>
-                                        <small className="my-5">{feed.roleOfUser}</small>
-                                    </div>
+                        <div id={`#item${idx+1}`} className="carousel-item w-full" key={idx}>
+                            <div className="flex flex-col md:flex-row items-center gap-10 bg-[#F8F8F8] p-10 ml-5 mr-5 md:ml-20 md:mr-20 rounded-2xl my-20">
+                                <img src={feed.profilePhoto} className="w-20 h-20 rounded-full" />
+                                <div>
+                                    <p className="font-normal text-sm md:text-base my-5">{feed.feedbackMessage}</p>
+                                    <p className="font-medium text-2xl">{feed.name}</p>
+                                    <small className="my-5">{feed.roleOfUser}</small>
                                 </div>
                             </div>
+                        </div>
 
-                        </>
+
                     )
                 })
             }

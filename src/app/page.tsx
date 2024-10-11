@@ -18,20 +18,22 @@ export default function Home() {
       .then(data => {
         setInformations(data);
       });
-  }, [])
-
-  // if(!informations){
-  //   return <h1>Loading....</h1>
-  // }
+  }, []);
+  
   return (
     <>
       <div>
-        <Header></Header>
-        <Banner informations={informations}></Banner>
-        <About informations={informations}></About>
-        <Services informations={informations}></Services>
-        <Projects informations={informations}></Projects>
-        <Testimonials informations={informations}></Testimonials>
+        <header>
+          <Header></Header>
+          <Banner informations={informations}></Banner>
+        </header>
+
+        <main>
+          <About informations={informations}></About>
+          <Services informations={informations}></Services>
+          <Projects informations={informations}></Projects>
+          <Testimonials informations={informations}></Testimonials>
+        </main>
       </div>
 
     </>

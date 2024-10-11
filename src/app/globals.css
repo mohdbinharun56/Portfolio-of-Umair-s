@@ -31,11 +31,6 @@ button:hover {
 }
 
 .circle {
-  /* width: 385px;
-  height: 385px;
-  border-radius: 50%;
-  position: relative;
-  top: 80px; */
   background: linear-gradient(to right, #FFFFFF00, #FF8233);
 
 }
