@@ -5,6 +5,7 @@ import Banner from "./components/banner/page";
 import About from "./components/about/page";
 import Services from "./components/services/page";
 import Projects from "./components/projects/page";
+import Testimonials from "./components/testimonials/page";
 
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
         <About informations={informations}></About>
         <Services informations={informations}></Services>
         <Projects informations={informations}></Projects>
+        <Testimonials informations={informations}></Testimonials>
       </div>
 
     </>

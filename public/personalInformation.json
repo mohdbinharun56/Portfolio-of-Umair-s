@@ -39,52 +39,103 @@
       "description": "Creating compelling visual content to enhance brand identity and communication."
     }
   ],
-  "experience": [
-    {
-      "company": "Creative Studio",
-      "position": "UI & UX Designer",
-      "startDate": "March 2020",
-      "endDate": "Present",
-      "responsibilities": [
-        "Designed and enhanced user interfaces for mobile and web applications",
-        "Worked closely with development teams to ensure seamless user experiences",
-        "Conducted user research and testing to optimize designs"
-      ],
-      "feedback": [
-        {
-          "name": "Jane Doe",
-          "feedbackMessage": "Mohammad consistently delivers outstanding design work. His attention to detail and user-centered approach have greatly improved our platform’s usability.",
-          "roleOfUser": "Project Manager",
-          "profilePhoto": "https://example.com/jane-doe.jpg"
-        },
-        {
-          "name": "John Smith",
-          "feedbackMessage": "Umair’s design skills are top-notch, and he has a great understanding of the UX process. He always goes the extra mile to ensure our products look fantastic and function smoothly.",
-          "roleOfUser": "Product Owner",
-          "profilePhoto": "https://example.com/john-smith.jpg"
-        }
-      ]
-    },
-    {
-      "company": "Design Innovators",
-      "position": "Graphic Designer",
-      "startDate": "July 2017",
-      "endDate": "February 2020",
-      "responsibilities": [
-        "Created visual designs for web and print materials",
-        "Collaborated with clients to meet branding requirements",
-        "Delivered high-quality design solutions within tight deadlines"
-      ],
-      "feedback": [
-        {
-          "name": "Emily Clark",
-          "feedbackMessage": "Mohammad’s creativity and dedication helped elevate our brand visuals. His ability to quickly grasp concepts and execute them with precision was invaluable.",
-          "roleOfUser": "Marketing Lead",
-          "profilePhoto": "https://example.com/emily-clark.jpg"
-        }
-      ]
-    }
-  ],
+  "experiences": [
+  {
+    "company": "Creative Studio",
+    "position": "UI & UX Designer",
+    "startDate": "March 2020",
+    "endDate": "Present",
+    "responsibilities": [
+      "Designed and enhanced user interfaces for mobile and web applications",
+      "Worked closely with development teams to ensure seamless user experiences",
+      "Conducted user research and testing to optimize designs"
+    ],
+    "feedback": [
+      {
+        "name": "John Smith",
+        "feedbackMessage": "Umair’s design skills are top-notch, and he has a great understanding of the UX process. He always goes the extra mile to ensure our products look fantastic and function smoothly.",
+        "roleOfUser": "Product Owner",
+        "profilePhoto": "https://s3-alpha-sig.figma.com/img/ac6c/6fee/baa649092172e33f9b1e0e4eb8df495d?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g1iv4Ipm7bHrUlIphph5GU1sMdC3AM9xa7jtn~6K4Bq~j3vKheP5EzGrS9571RoDoNKsmIJX2zZrZg17PGUX0E~mki4nD7Yvx0NOmqXuScwX87OI3nH0Xmz6INm-F8Bodxgrb94dQFNTPVnVtRUqfFkScBI2XHT75Fj0YljpnoZmS0CxoJt7sAmR~rCat12ZNf9k~tR-JmJAaKzSmltR-S1lEQG1Oo7iJL81q331r9LqqNK2FxHCvPvpn4MMck9fly6v-HXT6MkNllmloOJ3RhEPbTG1bUnN5~T0eQqt~HKNKrKXmLRLIprT5s914u7fvKaKURLNGcQzMO844-lavg__"
+      }
+    ]
+  },
+  {
+    "company": "Design Innovators",
+    "position": "Graphic Designer",
+    "startDate": "July 2017",
+    "endDate": "February 2020",
+    "responsibilities": [
+      "Created visual designs for web and print materials",
+      "Collaborated with clients to meet branding requirements",
+      "Delivered high-quality design solutions within tight deadlines"
+    ],
+    "feedback": [
+      {
+        "name": "Emily Clark",
+        "feedbackMessage": "Mohammad’s creativity and dedication helped elevate our brand visuals. His ability to quickly grasp concepts and execute them with precision was invaluable.",
+        "roleOfUser": "Marketing Lead",
+        "profilePhoto": "https://s3-alpha-sig.figma.com/img/ef2a/ae46/3fa637cd1c7f4913b84b9f6c8137cb98?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lU3FV-2smPYDc7IUz9IihAHCzPQ~Ut6aujfhBbDpoCO0U1Z7Ly3yl6yK~sw0rCcmJ10VLUjObw4IohIq5DmYkguBcoLQltiy9l446P5aX2DDRkmS1CawuLfyWllMKN7rfiZ3jUFul9Mxgj~vc6seIMORfUOSukSIbAO~mLnafEJdoGaAOHAtGmXnWckHxCnti4Pnzaww~FNOftp4LGXuFs68lzgzDyKJCvSW-mikZyi-uUmLXYf~jQpxUdJMm5kVfQKVXi7Dmfw8i1CPT0d3UutGMtf6dMcnxzy2ds9vAOxLZt6GUA0uqRd6mycdAjQUtMLYmp1SX0eFNEC~1BlhuQ__"
+      }
+    ]
+  },
+  {
+    "company": "Tech Savvy Solutions",
+    "position": "Senior UI Designer",
+    "startDate": "February 2020",
+    "endDate": "April 2022",
+    "responsibilities": [
+      "Led design projects for mobile apps and web-based platforms",
+      "Worked with cross-functional teams to ensure design consistency",
+      "Conducted usability testing to improve user experience"
+    ],
+    "feedback": [
+      {
+        "name": "Michael Brown",
+        "feedbackMessage": "Mohammad's leadership in UI design has been instrumental in creating cohesive, user-friendly designs for our products.",
+        "roleOfUser": "Product Manager",
+        "profilePhoto": "https://s3-alpha-sig.figma.com/img/ac6c/6fee/baa649092172e33f9b1e0e4eb8df495d?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g1iv4Ipm7bHrUlIphph5GU1sMdC3AM9xa7jtn~6K4Bq~j3vKheP5EzGrS9571RoDoNKsmIJX2zZrZg17PGUX0E~mki4nD7Yvx0NOmqXuScwX87OI3nH0Xmz6INm-F8Bodxgrb94dQFNTPVnVtRUqfFkScBI2XHT75Fj0YljpnoZmS0CxoJt7sAmR~rCat12ZNf9k~tR-JmJAaKzSmltR-S1lEQG1Oo7iJL81q331r9LqqNK2FxHCvPvpn4MMck9fly6v-HXT6MkNllmloOJ3RhEPbTG1bUnN5~T0eQqt~HKNKrKXmLRLIprT5s914u7fvKaKURLNGcQzMO844-lavg__"
+      }
+    ]
+  },
+  {
+    "company": "Innovative Design Agency",
+    "position": "Graphic & UI Designer",
+    "startDate": "May 2016",
+    "endDate": "June 2017",
+    "responsibilities": [
+      "Developed custom graphics and UI elements for various client projects",
+      "Collaborated with developers and stakeholders to deliver engaging interfaces",
+      "Worked under tight deadlines to produce high-quality work"
+    ],
+    "feedback": [
+      {
+        "name": "Sarah Williams",
+        "feedbackMessage": "Mohammad’s ability to balance creativity with practicality made him a valuable asset to our team.",
+        "roleOfUser": "Creative Director",
+        "profilePhoto": "https://s3-alpha-sig.figma.com/img/ef2a/ae46/3fa637cd1c7f4913b84b9f6c8137cb98?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lU3FV-2smPYDc7IUz9IihAHCzPQ~Ut6aujfhBbDpoCO0U1Z7Ly3yl6yK~sw0rCcmJ10VLUjObw4IohIq5DmYkguBcoLQltiy9l446P5aX2DDRkmS1CawuLfyWllMKN7rfiZ3jUFul9Mxgj~vc6seIMORfUOSukSIbAO~mLnafEJdoGaAOHAtGmXnWckHxCnti4Pnzaww~FNOftp4LGXuFs68lzgzDyKJCvSW-mikZyi-uUmLXYf~jQpxUdJMm5kVfQKVXi7Dmfw8i1CPT0d3UutGMtf6dMcnxzy2ds9vAOxLZt6GUA0uqRd6mycdAjQUtMLYmp1SX0eFNEC~1BlhuQ__"
+      }
+    ]
+  },
+  {
+    "company": "NextGen Creatives",
+    "position": "Junior Designer",
+    "startDate": "January 2015",
+    "endDate": "April 2016",
+    "responsibilities": [
+      "Assisted in creating visual assets for websites and social media",
+      "Contributed to the overall design process for client projects",
+      "Learned and implemented best practices in UX/UI design"
+    ],
+    "feedback": [
+      {
+        "name": "David Lee",
+        "feedbackMessage": "Mohammad was quick to learn and excelled in his role as a junior designer. His growth in such a short time was impressive.",
+        "roleOfUser": "Lead Designer",
+        "profilePhoto": "https://s3-alpha-sig.figma.com/img/ac6c/6fee/baa649092172e33f9b1e0e4eb8df495d?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g1iv4Ipm7bHrUlIphph5GU1sMdC3AM9xa7jtn~6K4Bq~j3vKheP5EzGrS9571RoDoNKsmIJX2zZrZg17PGUX0E~mki4nD7Yvx0NOmqXuScwX87OI3nH0Xmz6INm-F8Bodxgrb94dQFNTPVnVtRUqfFkScBI2XHT75Fj0YljpnoZmS0CxoJt7sAmR~rCat12ZNf9k~tR-JmJAaKzSmltR-S1lEQG1Oo7iJL81q331r9LqqNK2FxHCvPvpn4MMck9fly6v-HXT6MkNllmloOJ3RhEPbTG1bUnN5~T0eQqt~HKNKrKXmLRLIprT5s914u7fvKaKURLNGcQzMO844-lavg__"
+      }
+    ]
+  }
+],
   "education": [
     {
       "degree": "Bachelor of Arts in Graphic Design",
