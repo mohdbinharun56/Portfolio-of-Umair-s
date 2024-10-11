@@ -15,12 +15,12 @@ export default function Projects({ informations }: any) {
     if (!projects) {
         return <h1></h1>
     }
-    const setDesign = activeProject === 'All' || activeProject === projects.find((project: any) => {
-        const projectType = project.technology;
-        const isCheck = activeProject === projectType;
-        console.log(isCheck, projectType);
+    // const setDesign = activeProject === 'All' || activeProject === projects.find((project: any) => {
+    //     const projectType = project.technology;
+    //     const isCheck = activeProject === projectType;
+    //     console.log(isCheck, projectType);
 
-    });
+    // });
     return (
         <>
             <div className="w-full">
@@ -46,7 +46,7 @@ export default function Projects({ informations }: any) {
                     </div>
                 </div>
 
-                <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-fit mx-auto my-20 gap-10`}>
+                <div className={`grid grid-cols-1  lg:grid-cols-3 w-fit mx-auto my-20 gap-10`}>
                     {
                         projects.map((project: any, idx: any) => <Project key={idx} project={project} activeProject={activeProject}></Project>)
                     }
