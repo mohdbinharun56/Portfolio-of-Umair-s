@@ -6,6 +6,8 @@ import About from "./components/about/page";
 import Services from "./components/services/page";
 import Projects from "./components/projects/page";
 import Testimonials from "./components/testimonials/page";
+import Contact from "./components/contact/page";
+import Footer from "./components/footer/page";
 
 
 export default function Home() {
@@ -19,7 +21,7 @@ export default function Home() {
         setInformations(data);
       });
   }, []);
-  
+
   return (
     <>
       <div>
@@ -33,7 +35,12 @@ export default function Home() {
           <Services informations={informations}></Services>
           <Projects informations={informations}></Projects>
           <Testimonials informations={informations}></Testimonials>
+          <Contact></Contact>
         </main>
+
+        <footer>
+          <Footer></Footer>
+        </footer>
       </div>
 
     </>
