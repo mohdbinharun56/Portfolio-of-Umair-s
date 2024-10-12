@@ -1,7 +1,7 @@
 import Logo from "../Header/logo/page";
 import Navigation from "../Header/nav/page";
 
-export default function Footer({theme}:any) {
+export default function Footer({handleNav,theme}:any) {
     return (
         <>
             <div className={`${theme?'bg-[#1E1E1E]':'bg-[#F8F8F8]'} min-h-screen p-20 mt-20`}>
@@ -10,7 +10,7 @@ export default function Footer({theme}:any) {
                         <Logo theme={theme}></Logo>
                     </div>
                     <div className="ml-20 my-10">
-                        <Navigation></Navigation>
+                        <Navigation handleNav={handleNav}></Navigation>
                     </div>
                 </div>
 

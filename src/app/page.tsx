@@ -13,16 +13,8 @@ import Footer from "./components/footer/page";
 export default function Home() {
 
   const [informations, setInformations] = useState([]);
-  const [theme,setTheme] = useState(false);
+  const [theme, setTheme] = useState(false);
 
-  const handleTheme = (e:any)=>{
-    e.preventDefault();
-    const element = document.body;
-    element.classList.toggle("dark");
-    setTheme(!theme);
-
-    console.log(theme);
-  }
   useEffect(() => {
     fetch('personalInformation.json')
       .then(response => response.json())
@@ -38,13 +30,20 @@ export default function Home() {
     }
   };
 
+  const handleTheme = (e: any) => {
+    e.preventDefault();
+    const element = document.body;
+    element.classList.toggle("dark");
+    setTheme(!theme);
+
+    console.log(theme);
+  }
+
   return (
     <>
       <div>
-        <button onClick={(e:any)=>handleTheme(e)}>Toggle</button>
-
         <header>
-          <Header handleNav={handleNav} theme={theme}></Header>
+          <Header handleTheme={handleTheme} handleNav={handleNav} theme={theme}></Header>
           <Banner informations={informations} ></Banner>
         </header>
 
@@ -57,7 +56,7 @@ export default function Home() {
         </main>
 
         <footer>
-          <Footer theme={theme}></Footer>
+          <Footer theme={theme} handleNav={handleNav}></Footer>
         </footer>
       </div>
 
