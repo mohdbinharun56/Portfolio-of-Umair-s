@@ -4,12 +4,14 @@ export default function Services({ informations,theme }: any) {
     console.log("service: ",theme);
 
     const { skills } = informations || {};
-
+    
+    if (!skills) {
+        return <h1 className="text-6xl text-center font-semibold text-blue-900 mt-10px">Loading...</h1>
+    }
+    
     console.log(skills);
 
-    // if (!skills) {
-    //     return <h1 className="text-6xl text-center font-semibold text-blue-900 mt-10px">Loading...</h1>
-    // }
+  
 
     return (
         <>

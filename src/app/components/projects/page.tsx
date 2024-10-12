@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Project from "../project/page";
 
-export default function Projects({ informations,nav }: any) {
+export default function Projects({ informations }: any) {
     const [activeProject, setActiveProject] = useState("All");
 
     const handleprojects = (e: any, projectType: string) => {
@@ -10,7 +10,7 @@ export default function Projects({ informations,nav }: any) {
         setActiveProject(projectType);
     }
 
-    const { projects } = informations;
+    const { projects } = informations || {};
 
     if (!projects) {
         return <h1></h1>
