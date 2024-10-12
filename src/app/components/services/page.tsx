@@ -2,16 +2,14 @@ import Service from "../service/page";
 
 export default function Services({ informations,theme }: any) {
     console.log("service: ",theme);
-    if (!informations) {
-        return <h1 className="text-center font-semibold text-blue-900">Loading...</h1>
-    }
+
     const { skills } = informations || {};
 
     console.log(skills);
 
-    if (!skills) {
-        return <h1 className="text-6xl text-center font-semibold text-blue-900 mt-10px">Loading...</h1>
-    }
+    // if (!skills) {
+    //     return <h1 className="text-6xl text-center font-semibold text-blue-900 mt-10px">Loading...</h1>
+    // }
 
     return (
         <>
@@ -21,11 +19,11 @@ export default function Services({ informations,theme }: any) {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center w-fit mx-auto gap-14">
                 {
-                    skills.map((skill: any, idx: any) => {
+                   skills? skills.map((skill: any, idx: any) => {
                         return (
                             <Service skill={skill} key={idx} theme={theme}></Service>
                         );
-                    })
+                    }): ''
                 }
             </div>
         </>
