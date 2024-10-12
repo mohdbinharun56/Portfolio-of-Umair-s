@@ -1,6 +1,6 @@
 
 export default function About({ informations }: any) {
-    const { aboutMe } = informations;
+    const { aboutMe } = informations || {};
     return (
         <>
             <div id="about" className="mt-20 flex flex-col-reverse md:flex-row justify-center items-center gap-20 ">

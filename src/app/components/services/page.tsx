@@ -5,7 +5,7 @@ export default function Services({ informations,theme }: any) {
     if (!informations) {
         return <h1 className="text-center font-semibold text-blue-900">Loading...</h1>
     }
-    const { skills } = informations;
+    const { skills } = informations || {};
 
     console.log(skills);
 

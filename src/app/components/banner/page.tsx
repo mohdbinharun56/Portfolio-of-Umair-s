@@ -1,5 +1,5 @@
-export default function Banner({ informations,nav }: any) {
-    const { name, title, profileImage, aboutMe } = informations;
+export default function Banner({ informations }: any) {
+    const { name, title, profileImage, aboutMe } = informations || {};
     return (
         <>
             <div id="banner" className="lg:max-w-7xl md:flex  mx-auto mt-16">

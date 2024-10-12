@@ -4,7 +4,7 @@ export default function Service({ skill,theme }: any) {
     if (!skill) {
         return <h1>hello</h1>
     }
-    console.log("Skills are", skill);
+
     return (
         <>
             <div>

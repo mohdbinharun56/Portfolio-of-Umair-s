@@ -4,7 +4,7 @@ import Testimonial from "../testimonial/page";
 
 export default function Testimonials({ informations,theme }: any) {
     
-    const { experiences } = informations;
+    const { experiences } = informations || {};
     const carouselRef = useRef<HTMLDivElement>(null);
     const [moveCarousel, setMoveCarousel] = useState(0)
    

@@ -1,5 +1,5 @@
 export default function Testimonial({ experience,theme }: any) {
-    const { feedback } = experience;
+    const { feedback } = experience || {};
 
     if (!experience && !feedback) {
         return;
