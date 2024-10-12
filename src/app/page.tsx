@@ -13,11 +13,15 @@ import Footer from "./components/footer/page";
 export default function Home() {
 
   const [informations, setInformations] = useState([]);
-  const [theme,setTheme] = useState("light");
+  const [theme,setTheme] = useState(false);
 
   const handleTheme = (e:any)=>{
     e.preventDefault();
-    setTheme("dark");
+    const element = document.body;
+    element.classList.toggle("dark");
+    setTheme(!theme);
+
+    console.log(theme);
   }
   useEffect(() => {
     fetch('personalInformation.json')
@@ -37,23 +41,23 @@ export default function Home() {
   return (
     <>
       <div>
+        <button onClick={(e:any)=>handleTheme(e)}>Toggle</button>
 
         <header>
-          <Header handleNav={handleNav}></Header>
-          <button onClick={handleTheme}>Theme</button>
+          <Header handleNav={handleNav} theme={theme}></Header>
           <Banner informations={informations} ></Banner>
         </header>
 
         <main>
           <About informations={informations}></About>
-          <Services informations={informations}></Services>
+          <Services informations={informations} theme={theme}></Services>
           <Projects informations={informations}></Projects>
-          <Testimonials informations={informations} ></Testimonials>
+          <Testimonials informations={informations} theme={theme}></Testimonials>
           <Contact></Contact>
         </main>
 
         <footer>
-          <Footer></Footer>
+          <Footer theme={theme}></Footer>
         </footer>
       </div>
 

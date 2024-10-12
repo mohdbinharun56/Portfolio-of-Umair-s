@@ -18,6 +18,10 @@ body {
   scroll-behavior: smooth;
 }
 
+.dark{
+  background-color: #000000;
+  color: #FFFFFF;
+}
 
 button {
   background: #FD6F00;

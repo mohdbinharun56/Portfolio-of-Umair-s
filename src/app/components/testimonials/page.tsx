@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import Testimonial from "../testimonial/page";
 
-export default function Testimonials({ informations,nav }: any) {
+export default function Testimonials({ informations,theme }: any) {
     
     const { experiences } = informations;
     const carouselRef = useRef<HTMLDivElement>(null);
@@ -51,7 +51,7 @@ export default function Testimonials({ informations,nav }: any) {
                 <div ref={carouselRef} className="carousel w-full">
                     {
                         experiences.map((experience: any, idx: any) => <Testimonial experience={experience} key={idx} 
-                        moveCarousel={moveCarousel}></Testimonial>)
+                        moveCarousel={moveCarousel} theme={theme}></Testimonial>)
                     }
                 </div>
 

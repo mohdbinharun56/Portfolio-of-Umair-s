@@ -1,7 +1,7 @@
 import Service from "../service/page";
 
-export default function Services({ informations,nav }: any) {
-
+export default function Services({ informations,theme }: any) {
+    console.log("service: ",theme);
     if (!informations) {
         return <h1 className="text-center font-semibold text-blue-900">Loading...</h1>
     }
@@ -15,7 +15,7 @@ export default function Services({ informations,nav }: any) {
 
     return (
         <>
-            <div id="services" className="text-center my-20">
+            <div id="services" className={`text-center my-20`}>
                 <h1 className="font-semibold text-3xl lg:text-6xl">Services</h1>
                 <p className="font-normal text-sm md:text-xl max-w-4xl mx-auto my-5 h-24">I provide a wide range of services leveraging my expertise in multiple areas of design and development. My focus is on delivering high-quality work that meets the needs of clients and enhances user experiences.</p>
             </div>
@@ -23,7 +23,7 @@ export default function Services({ informations,nav }: any) {
                 {
                     skills.map((skill: any, idx: any) => {
                         return (
-                            <Service skill={skill} key={idx}></Service>
+                            <Service skill={skill} key={idx} theme={theme}></Service>
                         );
                     })
                 }

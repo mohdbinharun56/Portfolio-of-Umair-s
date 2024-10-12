@@ -1,13 +1,13 @@
 import Logo from "../Header/logo/page";
 import Navigation from "../Header/nav/page";
 
-export default function Footer() {
+export default function Footer({theme}:any) {
     return (
         <>
-            <div className="min-h-screen bg-[#F8F8F8] p-20 mt-20">
+            <div className={`${theme?'bg-[#1E1E1E]':'bg-[#F8F8F8]'} min-h-screen p-20 mt-20`}>
                 <div className="mx-auto w-fit">
                     <div className="mx-auto w-fit my-10">
-                        <Logo></Logo>
+                        <Logo theme={theme}></Logo>
                     </div>
                     <div className="ml-20 my-10">
                         <Navigation></Navigation>
@@ -51,10 +51,10 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="flex justify-center bg-[#545454] p-3 text-white">
+            <div className={`${theme?'bg-[#121212]':'bg-[#545454]'} flex justify-center p-3 text-white`}>
                 <small className="md:font-bold text-xl">© 2023 <span className="text-[#FD6F00]">Mumair</span> All Rights Reserved , Inc.</small>
             </div>
-
+            
         </>
     );
 }

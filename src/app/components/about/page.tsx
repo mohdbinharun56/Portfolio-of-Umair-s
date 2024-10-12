@@ -1,5 +1,5 @@
 
-export default function About({ informations,nav }: any) {
+export default function About({ informations }: any) {
     const { aboutMe } = informations;
     return (
         <>
