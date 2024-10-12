@@ -42,8 +42,8 @@ export default function Testimonials({ informations,theme }: any) {
         <>
             <div id="testimonials">
                 <div className="text-center my-20">
-                    <h1 className="font-semibold text-3xl lg:text-6xl">Testimonials</h1>
-                    <p className="w-[350px] lg:w-[900px] font-normal text-sm md:text-xl text-center mx-auto my-5">This section 
+                    <h1 className="text-center text-3xl lg:text-6xl font-semibold">Testimonials</h1>
+                    <p className="max-w-4xl my-5 mx-auto text-center font-normal text-base md:text-xl">This section 
                         highlights client and colleague testimonials, showcasing appreciation for Mohammad’s exceptional design
                          skills, user-centric approach, and dedication to delivering high-quality work.</p>
                 </div>
