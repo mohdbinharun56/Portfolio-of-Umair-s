@@ -4,7 +4,7 @@ import Navigation from "../Header/nav/page";
 export default function Footer({handleNav,theme}:any) {
     return (
         <>
-            <div className={`${theme?'bg-[#1E1E1E]':'bg-[#F8F8F8]'} min-h-screen p-20 mt-20`}>
+            <div className={`${theme?'bg-[#1E1E1E]':'bg-[#F8F8F8]'} p-20 mt-20`}>
                 <div className="mx-auto w-fit">
                     <div className="mx-auto w-fit my-10">
                         <Logo theme={theme}></Logo>
@@ -52,7 +52,7 @@ export default function Footer({handleNav,theme}:any) {
             </div>
 
             <div className={`${theme?'bg-[#121212]':'bg-[#545454]'} flex justify-center p-3 text-white`}>
-                <small className="md:font-bold text-xl">© 2023 <span className="text-[#FD6F00]">Mumair</span> All Rights Reserved , Inc.</small>
+                <small className="md:font-bold md:text-xl">© 2023 <span className="text-[#FD6F00]">Mumair</span> All Rights Reserved , Inc.</small>
             </div>
             
         </>
